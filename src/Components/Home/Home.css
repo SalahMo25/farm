@@ -1,0 +1,246 @@
+/* Start Landing */
+.landing {
+    min-height: 100vh;
+    background-image: url("../Images/2.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  .landing .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 60%);
+  }
+  .landing h2{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "DM Serif Display";
+    position: relative;
+    z-index: 1;
+  }
+  .landing p{
+    font-size: 22px;
+    position: relative;
+    z-index: 1;
+  }
+  @media (max-width: 522px) {
+   .landing h2{
+    font-size: 36px;
+   }
+   .landing p{
+    font-size: 16px;
+   }
+  }
+  /* End Landing */
+  /* Start About */
+  .about{
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .about i,
+  .farm i,
+  .sec4 .content i,
+  .shopsection .content i{
+    color: #339B76;
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  .about h6,
+  .farm h6,
+  .sec4 .content h6,
+  .shopsection .content h6{
+    font-size: 16px;
+    color: #464E4E;
+  }
+  .about h2,
+  .farm h2,
+  .sec4 .content h2,
+  .shopsection .content h2{
+    font-size: 34px;
+    font-weight: bold;
+    font-family:"DM Serif Display" ;
+    margin-bottom: 18px;
+  }
+  .about p,
+  .farm p,
+  .shopsection p{
+    font-size: 16px;
+    color: #464e4e;
+    margin-bottom: 18px;
+  }
+  .about ul{
+    margin-bottom: 40px;
+    margin-left: -35px;
+  }
+  .about li{
+    color: #464e4e;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .about button,
+  .farm button{
+    background-color: #C9D935;
+    color: #000000;
+    border-radius: 40px;
+    border: none;
+    padding:28px 34px;
+    font-weight: bold;
+  }
+  .about .fa-arrow-right,
+  .farm .fa-arrow-right{
+    color: #000000;
+    margin-left: 15px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .about button:hover,
+  .farm button:hover{
+    background-color: #339B76;
+    color: #fff;
+  }
+  
+  .about .fa-arrow-right:hover{
+    color: #fff;
+  }
+  .about img{
+    max-width: 100%;
+  }
+  @media (max-width: 991px) {
+   .about button{
+    margin-bottom: 40px;
+   }
+   }
+   @media screen and (max-width: 767px){
+      .about h2{
+    font-size: 28px;
+}}
+   @media (max-width: 479px) {
+    .about button{
+    width: 100%;
+    }
+    .about h2{
+      font-size: 24px;
+    }}
+  /* End About */
+  /* Start farm */
+  .farm{
+    padding-bottom: 150px;
+    overflow: hidden;
+  }
+  .farm .part1{
+    background-color: #339B76;
+    padding: 150px 100px;
+  }
+  .farm .part1 i,
+  .sec2 i,
+  .sec4 .row i{
+    color: #fff;
+    background-color: rgba(100, 92, 92, 0.38);
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .farm .box h2,
+  .sec2 h2{
+    font-size: 52px;
+    color: #fff;
+    margin: 15px 0 5px 0;
+  }
+  .farm .box h5,
+  .sec2 h5{
+    font-size: 20px;
+    color: #fff;
+  }
+  .farm .Box2{
+    padding-top: 50px;
+  }
+  
+  .farm .part2{
+    background-color: #F8F9F9;
+    padding: 200px 100px;
+  }
+  .farm .part2 button{
+    margin-top: 18px;
+    font-size: 28px;
+  }
+  @media(max-width: 575px){
+    .farm .part1{
+      text-align: center;
+    }
+    .farm .box h2{
+      font-size: 32px;
+    }
+    .farm .box h5{
+      font-size: 12px;
+    }
+  }
+  @media(max-width: 771px){
+    .farm .part1{
+      text-align: center;
+    }
+    .farm .box h2{
+      font-size: 40px;
+    }
+    .farm .box h5{
+      font-size: 14px;
+    }
+  }
+   /* End farm */
+   /* Start Shopsection */
+   .shopsection{
+    text-align: center;
+    padding-bottom: 100px;
+ }
+ .shopsection .content{
+  margin-bottom: 50px;
+ }
+ .shopsection img{
+  padding:60px 40px;
+  text-align: center;
+  transition: 0.9s ease;
+  border-radius: 10px;
+  border:1px solid #D9D9D9;
+}
+.shopsection img{
+  width: 100%;
+}
+.shopsection img:hover{
+  transform: scale(1.1);
+}
+.shopsection .content{
+  text-align: center;
+}
+.shopsection .content h3{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.shopsection .content h4{
+  font-size: 24px;
+  color: #339B76;
+  margin-top: 15px;
+}
+.shopsection button,
+.sec4 button{
+  background-color: #C9D935;
+  color: #000000;
+  border: 0;
+  border-radius: 141px;
+  padding:20px 40px;
+  font-weight: bold;
+}
+.shopsection button:hover,
+.sec4 button:hover{
+  background-color: #339B76;
+  color: #fff;
+}
+   /* End Shopsection */
+  

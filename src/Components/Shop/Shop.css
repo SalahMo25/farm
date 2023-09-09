@@ -1,0 +1,27 @@
+#item {
+    margin-top: 20px;
+
+}
+
+#img {
+    margin: 7px 43px 7px 35px;
+    width: 200px;
+    height: 200px; 
+}
+
+
+#btn {
+    position: relative;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #a5b32c;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 7px 30px 7px 30px;
+}
+#loading{
+    margin-top: 40px;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+}

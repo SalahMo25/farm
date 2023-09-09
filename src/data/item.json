@@ -1,0 +1,57 @@
+[
+    {
+      "id": 6,
+      "name": "APPLE HARVEST",
+      "Harvest_Date": "2022-06-07",
+      "price": "400",
+      "Type": "Hand harvesting",
+      "Quantity": 500,
+      "imageUrl": "https:\/\/smartfarm.almostafabure.com\/public\/Harvest\/apples.jpg"
+    },
+    {
+      "id": 40,
+      "name": "oranges HARVESt",
+      "Harvest_Date": "2022-10-07",
+      "price": "900",
+      "Type": "Harvesting with hand tools",
+      "Quantity": 900,
+      "imgUrl": "https:\/\/smartfarm.almostafabure.com\/public\/Harvest\/orange.jpg"
+    },
+    {
+      "id": 41,
+      "name": "pear HARVESt",
+      "Harvest_Date": "2020-10-12",
+      "price": "280",
+      "Type": "Harvesting with machinery",
+      "Quantity": 180,
+      "imgUrl": "https:\/\/smartfarm.almostafabure.com\/public\/Harvest\/Pear3.jpg"
+    },
+    {
+      "id": 42,
+      "name": "strawberries HARVESt",
+      "Harvest_Date": "2020-12-12",
+      "price": "500",
+      "Type": "Hand harvesting",
+      "Quantity": 880,
+      "imgUrl": "https:\/\/smartfarm.almostafabure.com\/public\/Harvest\/Strawberry.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Mango HARVESt",
+      "Harvest_Date": "2021-06-12",
+      "price": "340",
+      "Type": "Hand harvesting",
+      "Quantity": 480,
+      "imgUrl": "https:\/\/smartfarm.almostafabure.com\/public\/Harvest\/mango1.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Bananas HARVESt",
+      "Harvest_Date": "2021-12-01",
+      "price": "676",
+      "Type": "Hand harvesting",
+      "Quantity": 390,
+      "imgUrl": "https:\/\/smartfarm.almostafabure.com\/public\/Harvest\/Banana2.jpg"
+    }
+  
+  ]

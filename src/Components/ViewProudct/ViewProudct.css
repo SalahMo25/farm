@@ -1,0 +1,199 @@
+#product-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    position: relative;
+    width: 320px;
+    height: 300px;
+
+    padding: 10px;
+    border: 20px;
+}
+
+#item-img {
+    background-color: rgba(245, 243, 243, 0.555);
+    height: 400px;
+    width: 345px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+#details {
+
+    margin-top: 50px;
+    padding-left: 60px;
+
+}
+
+
+#icon-pear {
+    position: absolute;
+    margin: auto;
+
+    height: 23px;
+    width: 49px;
+}
+
+#p-pear {
+    margin-top: 2px;
+    margin-left: 30px;
+    float: left;
+    color: rgb(162, 166, 168);
+
+}
+
+.clear {
+    clear: both;
+}
+
+#phone {
+
+    color: rgb(37, 138, 82);
+}
+
+#Quntity {
+
+    color: rgb(37, 138, 82);
+
+}
+
+#total,
+#price {
+
+    color: rgb(37, 138, 82);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+#btnDec {
+    background-color: rgb(42, 206, 116);
+}
+
+
+
+#btnInc {
+
+    background-color: rgb(42, 206, 116);
+
+}
+
+#book-btn {
+    
+    padding: 10px;
+    border: none;
+    float: left;
+    width: 120px;
+    border-radius: 50px;
+    background-color: rgb(241, 241, 241);
+    color: black;
+
+}
+
+
+#add-btn {
+  
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(150, 207, 57);
+    color: black;
+    width: 180px;
+    border-radius: 50px;
+    font-weight: 500;
+    float: left;
+
+}
+
+@media (max-width : 991px) {
+    #book-btn {
+        margin-top: 20px;
+        padding: 10px;
+        border: none;
+        float: left;
+        width: 100px;
+        border-radius: 50px;
+        background-color: rgb(241, 241, 241);
+        color: black;
+
+    }
+
+
+    #add-btn {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 10px;
+        border: none;
+        background-color: rgb(150, 207, 57);
+        color: black;
+        width: 180px;
+        border-radius: 50px;
+        font-weight: 500;
+        float: left;
+
+    }
+
+}
+
+@media (max-width : 766px) {
+    #book-btn {
+        float: left;
+
+    }
+
+    #details {
+
+        margin-top: 50px;
+        padding-left: 5px;
+
+    }
+
+    #add-btn {
+
+        float: left;
+        margin-top: -45px;
+        margin-left: 100px;
+
+    }
+
+}
+
+@media (max-width : 575px) {
+    .container {
+        flex-direction: row;
+    }
+    #product-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    #item-img {
+        height: 400px;
+        width: 325px;
+        margin-left: 30px;
+
+    }
+
+    #details {
+        margin-left: 30px;
+    }
+    #add-btn {
+
+        float: left;
+        margin-top: 20px;
+        margin-left: 30px;
+
+    }
+    .counter{
+        width: 200px;
+    }
+}
+#loading{
+    margin-top: 40px;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+}

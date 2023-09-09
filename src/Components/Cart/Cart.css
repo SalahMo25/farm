@@ -1,0 +1,164 @@
+#head {
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#cart-item {
+    border-bottom: 1px solid #D9D9D9;
+    flex-direction: row;
+
+    margin-bottom: 20px;
+}
+
+#cart-item img {
+    background-color: #f5f7e250;
+    padding: 5px;
+    border: 2px solid rgba(53, 82, 0, 0.199);
+    width: 178px;
+    height: 168px;
+    margin-bottom: 20px;
+
+
+
+}
+
+#cart-item #discrption {
+
+    margin-left: 15px;
+
+}
+
+#cart-quntity {
+
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#btn-remove {
+    margin-top: 30px;
+    height: 40px;
+}
+
+#cart-item h5 {
+    margin-top: 35px;
+}
+
+#btn-check {
+    margin-left: 950px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+}
+
+#btn-book {
+
+    right: 130px;
+    padding: 10px;
+    border: none;
+    width: 120px;
+    border-radius: 50px;
+    background-color: rgb(113, 179, 27);
+    color: black;
+
+
+}
+
+
+@media (max-width : 991px) {
+    .all {
+        width: 100vw;
+    }
+
+    #cart-item h5 {
+        width: 50px;
+
+    }
+
+    #btn-remove {
+        margin-left: 50px;
+        width: 100px;
+    }
+
+
+
+}
+
+@media (max-width : 762px) {
+
+    #discrption h4 {
+        width: 180px;
+    }
+
+    #cart-quntity {
+        margin-top: 80px;
+        margin-left: -45px;
+
+
+    }
+
+    #cart-item h5 {
+        margin-top: 90px;
+        width: 140px;
+
+    }
+
+    #btn-remove {
+        margin-top: -57px;
+        margin-bottom: 20px;
+        margin-left: 205px;
+        width: 90px;
+
+    }
+
+
+
+
+
+}
+
+@media (max-width : 575px) {
+
+    #cart-item {
+        margin-left: 20px;
+    }
+
+    #discrption {
+
+        margin-top: -190px;
+        padding-left: 190px;
+    }
+
+    #discrption h4 {
+        padding-left: 90px;
+        margin-top: -33px;
+        width: 210px;
+    }
+
+    #cart-quntity {
+        margin-top: -150px;
+        margin-left: 193px;
+
+
+
+    }
+
+    #cart-item h5 {
+        margin-top: -100px;
+        margin-left: 190px;
+
+    }
+
+    #btn-remove {
+        margin-top: -60px;
+        margin-right: 100px;
+
+    }
+
+    #btn-book {
+        margin-left: 30px;
+    }
+
+}

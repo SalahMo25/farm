@@ -1,0 +1,117 @@
+/* Start Section1 */
+.sec1{
+    overflow: hidden;
+}
+.sec1 .part1{
+    margin-top: -150px;
+}
+.sec1 .part2{
+    margin-top: 10px;
+}
+.sec1 .part2 h1{
+    font-size: 56px;
+    font-family:"DM Serif Display" ;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.sec1 .part2 p{
+    font-size: 22px;
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+@media (max-width: 991px) {
+    .part1 img{
+        width: 100%;
+    }
+    }
+    @media (max-width: 1120px) {
+      .sec1 .part2{
+         margin-bottom:170px;
+      }
+      .sec1 .part2 h1{
+         font-size: 48px;
+      }
+      }
+            @media (max-width: 767px) {
+               .sec1{
+                  text-align: center;
+               }
+               .sec1 .part2 h1{
+                  font-size: 35px;
+               }
+               .sec1 .part2 p{
+                  font-size: 16px;
+               }
+               .sec1 button{
+                  width: fit-content;
+               }
+            }
+
+    .sec2{
+        background-color: #339b76;
+        margin-top: -250px;
+        padding: 120px;
+    }
+    @media (max-width:771px) {
+     .sec2{
+      text-align: center;
+     }
+      }
+    /* End Section2 */
+     /* Start Section3 */
+     .sec3 p{
+        line-height: 30px;
+     }
+     .sec3 .part2{
+        background-color: #a0e4cb52;
+        border-left:5px solid #339b76;
+        padding: 60px 30px 60px 60px ;
+     }
+     .sec3 img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+     }
+     .sec3 h5{
+        margin-top: -45px;
+        margin-left: 70px;
+     }
+     .sec3 .part2 p{
+        font-size: 22px;
+        font-weight: 500;
+     }
+     .sec3 span{
+        color: #339b76;
+     }
+    /* End Section3 */
+     /* Start Section4 */
+     .sec4{
+        background-color: #F8F9F9;
+        padding: 150px 0;
+        text-align: center;
+        margin-bottom: 150px;
+     }
+     .sec4 .row i{
+        color: #fff;
+        background-color: #339b76;
+     }
+     .sec4 .row{
+        margin-top: 60px;
+     }
+     .sec4 h2{
+        color: #000000;
+        font-size: 52px;
+     }
+     .sec4 p{
+        color:#464e4e;
+        line-height: 30px;
+     }
+     .sec4 .row h3{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 15px 0;
+     }
+     .sec4 button{
+      margin-top: 40px;
+     }
+    /* End Section4 */
